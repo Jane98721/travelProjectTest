@@ -1,6 +1,6 @@
 
 import * as readline from 'readline';
-import { trips } from './models';
+import { type Trip } from './models';
 import {
   calculateTotalCost,
   getHighCostActivities
@@ -19,6 +19,7 @@ const ask = (question: string): Promise<string> =>
 
 // Creating Budget Service Menu
 
+const trips: Trip[] = [] 
 const showMenu = async (): Promise<void> => {
   console.log('\n💰 Budget Menu');
   console.log('1. Add Activity');
