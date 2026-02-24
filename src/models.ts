@@ -14,3 +14,5 @@ export type Trip = {
   currency: string,
   flag: string 
 }
+
+export const trips: Trip[] = [];
