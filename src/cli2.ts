@@ -1,8 +1,8 @@
 
 // cli.ts
 import * as readline from 'readline';
-import { trips as importedTrips, type Trip, type Activity } from './models.js';
-import { calculateTotalCost, getHighCostActivities } from './services/budgetService.js';
+import { trips as importedTrips, type Trip, type Activity } from './models';
+import { calculateTotalCost, getHighCostActivities } from './services/budgetService';
 import { v4 as uuidv4 } from 'uuid';
 
 // Creating readline interface for user input and output in the console.

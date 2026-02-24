@@ -1,7 +1,7 @@
 //BUDGET SERVICE
 
 //Importing types Trip, Activity from the models
-import { type Trip, type Activity} from '../models.js';
+import { type Trip, type Activity} from '../models';
 
 
 //Function receive the object trip and return the number with the cost of the trip.
