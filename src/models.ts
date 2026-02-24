@@ -15,3 +15,4 @@ export type Trip = {
   flag: string 
 }
 
+export const trips: Trip[] = [];

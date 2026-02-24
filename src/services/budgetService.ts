@@ -26,6 +26,8 @@ export const getHighCostActivities = (
     (activity: Activity) => activity.cost > threshold
   );
 };
+// ============ HELPER ============
+
 
 //console.log('Budget service loaded \n');
 //console.log(`Total Cost is: ${calculateTotalCost(trips[0])}\n`);
